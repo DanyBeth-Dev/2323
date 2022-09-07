@@ -1,3 +1,5 @@
+import axios from 'axios'
+
 let cards = document.getElementById('cards')
 let $template = document.getElementById('card-template').content
 let $fragment = document.createDocumentFragment()
